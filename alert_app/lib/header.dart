@@ -1,6 +1,7 @@
+import 'package:alert_app/main_container2.dart';
+
 import 'content.dart';
 import 'package:flutter/material.dart';
-import 'dummy_content.dart';
 
 
 class HeaderClass extends StatelessWidget {
@@ -19,7 +20,7 @@ class HeaderClass extends StatelessWidget {
           SizedBox(width: 50),
           GestureDetector(
             onTap: () {
-              // print("hello pressed");
+              print("hello pressed");
               MainContentClass();
             },
             child: const Text(
@@ -33,8 +34,8 @@ class HeaderClass extends StatelessWidget {
           SizedBox(width: 150), // Add space of 10 pixels
           GestureDetector(
             onTap: () {
-              // print("hello  pressedddddddddddddd");
-              DummyContentClass();
+              print("hello  pressedddddddddddddd");
+              MainContentClass2();
             },
             child: const Text(
               "Alert without StepLoader",

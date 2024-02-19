@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'alert.dart';
 import 'header.dart';
+import 'main_container2.dart';
 
 
 class MainContainer extends StatelessWidget {
@@ -27,7 +28,17 @@ class MainContainer extends StatelessWidget {
 
             HeaderClass(),
 
-            MainContentClass(),
+            // MainContentClass(),
+
+            // Delete Button:
+            TextButton(onPressed: (){},
+                style: ButtonStyle(
+                  foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+                ),
+                child:Text("Delete", style: TextStyle(color:Colors.red, fontSize: 30.0),)
+            ),
+            MainContentClass2(),
+            // MainContentClass2(),
 
 
           ],

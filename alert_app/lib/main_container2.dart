@@ -1,10 +1,8 @@
+import 'package:alert_app/alert1.dart';
 import 'package:flutter/material.dart';
-
 import 'alert.dart';
 
-
-class DummyContentClass extends StatelessWidget
-{
+class MainContentClass2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,11 +15,8 @@ class DummyContentClass extends StatelessWidget
           Border.all(color: Colors.black, width: 2), // Border added here
         ),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          AlertClass(),
-          Divider(),
-          AlertClass(),
-          Divider(),
-          AlertClass(),
+
+          AlertClass1(),
         ]));
   }
 }
