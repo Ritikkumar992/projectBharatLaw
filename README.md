@@ -1,3 +1,16 @@
+# Final_App: Done 🌀
+# Folder Location: final_app/
+# Sample Video:
+<video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/d692cb97-f409-4d11-b89c-eef9acd3286c"></video>
+
+# Features Implemented: 🧿
+ - Responsive and Adaptive Design.
+ - clickable Navigation Bar.
+ - Alert page is created.
+ - Search Content is created.
+
+---------------------------------------------------- PREVIOUS VERSIONS ---------------------------------------------------------------------
+
 # Task_01 : Done ✔️
 # Bharat Law steploader
 # Sample Video:
@@ -6,28 +19,11 @@
 # Task_02 : Work in Progress 🔄️
 # Record_Book App 📱
 - Styling Remaining.
--
--
 # Sample Video:
 <video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/95fe4d51-1dc8-4a4b-863d-8dc92c5ecfab"></video>
 
 # Task_03 : Work in Progress 🔄️
 # Alert App 🔔
 - Styling Remaining.
--
--
 # Sample Video:
 <video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/5117f566-ec7a-4342-8339-8a003842a73d"></video>
--
-
-# Final_App: Done ✔️
-# Folder Location: final_app/
-# Sample Video:
-<video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/d692cb97-f409-4d11-b89c-eef9acd3286c"></video>
-
-# Features Implemented:
- - Responsive and Adaptive Design.
- - clickable Navigation Bar.
- - Alert page is created.
- - Search Content is created.
- - 
