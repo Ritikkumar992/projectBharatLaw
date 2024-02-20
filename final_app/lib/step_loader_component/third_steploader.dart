@@ -1,7 +1,7 @@
 import 'package:final_app/utility/utility.dart';
 import 'package:flutter/material.dart';
 
-class SecondaryStepLoaderClass extends StatelessWidget {
+class ThirdStepLoaderClass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProgressIndicatorExample();
@@ -41,8 +41,8 @@ class _ProgressIndicatorExampleState extends State<ProgressIndicatorExample>
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 35,
-      width: 100,
+      height: 10,
+      width: 180,
       child: Center(
         child: LinearProgressIndicator(
           value: controller.value,

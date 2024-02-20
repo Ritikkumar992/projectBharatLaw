@@ -10,12 +10,16 @@ import 'objective_content.dart';
 class MainContentClass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
+
     return SingleChildScrollView(
       scrollDirection: Axis.vertical, // Scroll horizontally
       child: Container(
         padding: EdgeInsets.all(16.0),
         width: 835,
-        height: 10200,
+        height: screenHeight*16,
         color: Colors.white,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -57,8 +61,11 @@ class MainContentClass extends StatelessWidget {
             buildDataRow('Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But x even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability. Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability.'),
             Divider(),
 
-            buildTableHeader('Acts and Section'),
+            buildTableHeader('Acts and Section Suggested by BharatLaw'),
             Divider(),
+            ActsSectionClass(),
+            Divider(),
+
             buildTableHeader('Section 1'),
             Divider(),
             buildDataRow('Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability, Uniess the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability. Misuse of cheque is when the person holding Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any cebt or other liability. Misuse of cheque is when the person holding.'),
@@ -68,9 +75,12 @@ class MainContentClass extends StatelessWidget {
             buildDataRow('Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But x even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability. Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability.'),
             buildDataRow('Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But x even in Section 139 N. 1. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability. Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability.'),
 
-            Divider(),
 
+
+            Divider(),
             buildTableHeader('Acts and Section added by me'),
+            Divider(),
+            ActsSectionClass(),
             Divider(),
             buildTableHeader('Section 1'),
             Divider(),
@@ -90,12 +100,17 @@ class MainContentClass extends StatelessWidget {
             Divider(),
 
             buildTableHeader('Paul Vs. State of Kerla'),
+            Divider(),
             buildDataRow('Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. I. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability. Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. I. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability.Misuse of cheque is when the person holding Unless the contrary is proved, the holder of the cheque received the cheque for the discharge in whole or in part of any debt or other liability. But even in Section 139 N. I. Act, the legal presumption is created only for the cheque so received for the discharge in whole or in part of any debt or other liability.Misuse of cheque is when the person holding'),
 
+            Divider(),
             buildTableHeader('Relevance:'),
+            Divider(),
             buildDataRow('The case involves the missing of Rs.1,50,200/ from the cash counter of a bank. The money was handed over by the informant to the bank for the purpose of obtaining bank drafts. The money went missing during the time when the bank s peon stepped out for a short time, page 1. (2) The court held that even though the money was entrusted to the bank and it went missing from the cash counter, it was not proved beyond reasonable doubt that the cash was entrusted to the peon at the instance of the Head Cashier, page 2. (3) The court also held that the possibility of theft of the money cannot be ruled out. The informant had filed a suit for recovery of the amount from the bank, page 2.'),
 
+            Divider(),
             buildTableHeader('Key Considerations:'),
+            Divider(),
             buildDataRow('(1) The case highlights the importance of proving entrustment and dishonest intention in cases involving missing cash.'),
             buildDataRow('(2) The case also underscores the need for credible and cogent evidence to establish when the money was really missing.'),
 

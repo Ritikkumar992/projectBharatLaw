@@ -1,3 +1,4 @@
+import 'package:final_app/utility/utility.dart';
 import 'package:flutter/material.dart';
 
 class PrimaryStepLoaderClass extends StatelessWidget {
@@ -45,7 +46,7 @@ class _ProgressIndicatorExampleState extends State<ProgressIndicatorExample>
         child: LinearProgressIndicator(
           value: controller.value,
           backgroundColor: Colors.grey,
-          valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
+          valueColor: AlwaysStoppedAnimation<Color>(MyColors.primaryColor),
         ),
       ),
     );

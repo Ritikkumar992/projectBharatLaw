@@ -2,36 +2,35 @@ import 'package:final_app/utility/utility.dart';
 import 'package:flutter/material.dart';
 
 
-
 class FactContentClass extends StatelessWidget {
   const FactContentClass({super.key});
   @override
   Widget build(BuildContext context) {
     return Column(
       children: List.generate(
-        4,(index) => buildContainer(index + 1),
+        4,(idx) => buildFactContainer(idx+1),
       ),
     );
   }
-  Widget buildContainer(int index)
+  Widget buildFactContainer(int idx)
   {
     return Container(
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: MyColors.borderColor[index - 1],
+        color: MyColors.borderColor[idx - 1],
         borderRadius: BorderRadius.circular(10),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            width: 50,
-            height: 50,
-            color: MyColors.widgetColor[index - 1],
+            width: 55,
+            height: 55,
+            color: MyColors.widgetColor[idx - 1],
             child: Center(
               child: Text(
-                '$index',
+                '$idx',
                 style: TextStyle(color: Colors.white, fontSize: 25),
               ),
             ),
@@ -40,18 +39,18 @@ class FactContentClass extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Text(
-                MyData().factdata[(index - 1) % MyData().factdata.length],
-                style: const TextStyle(color: Colors.black54, fontSize: 26),
+                MyData().factdata[(idx - 1) % MyData().factdata.length],
+                style: const TextStyle(color: Colors.black, fontSize: 25),
               ),
             ),
           ),
           Container(
-            width: 50,
-            height: 50,
+            width: 55,
+            height: 45,
             child: const Icon(
                 Icons.delete_forever,
                 color: Colors.grey,
-                size: 35,
+                size: 33,
             ),
           ),
         ],

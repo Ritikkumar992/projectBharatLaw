@@ -7,17 +7,17 @@ class MyColors {
   static const Color secondaryColor = Color.fromRGBO(177, 229, 239, 10.0);
 
   static const List<Color> borderColor = [
-    Color.fromRGBO(186, 191, 249, 100),
-    Color.fromRGBO(213, 247, 244, 20),
-    Color.fromRGBO(241, 224, 232, 10),
-    Color.fromRGBO(250, 232, 204, 70),
+    Color.fromRGBO(185, 190, 250, 100),
+    Color.fromRGBO(215, 245, 245, 20),
+    Color.fromRGBO(240, 225, 235, 10),
+    Color.fromRGBO(250, 235, 205, 70),
   ];
 
   static const List<Color> widgetColor = [
-    Color.fromRGBO(60, 91, 129, 10),
-    Color.fromRGBO(40, 154, 144, 20),
-    Color.fromRGBO(119, 75, 95, 10),
-    Color.fromRGBO(224, 159, 60, 70),
+    Color.fromRGBO(60, 90, 130, 10),
+    Color.fromRGBO(40, 155, 145, 20),
+    Color.fromRGBO(120, 75, 95, 10),
+    Color.fromRGBO(225, 160, 60, 70),
   ];
 }
 
