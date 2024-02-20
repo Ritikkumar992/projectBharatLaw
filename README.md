@@ -19,5 +19,7 @@
 # Sample Video:
 <video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/5117f566-ec7a-4342-8339-8a003842a73d"></video>
 -
--
--
+
+# Final_App: Done ✔️
+# Sample Video:
+<video src = "https://github.com/Ritikkumar992/projectBharatLaw/assets/75531808/d692cb97-f409-4d11-b89c-eef9acd3286c"></video>
